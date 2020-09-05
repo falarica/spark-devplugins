@@ -1,0 +1,2 @@
+# Class of our cluster manager
+org.apache.spark.sql.dev.plugins.ClusterManager

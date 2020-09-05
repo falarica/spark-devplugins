@@ -1,0 +1,19 @@
+site_name: Spark Dev Plugins
+site_description: Developer Plugins For Apache Spark
+site_author: Hemant Bhanawat
+repo_url: https://github.com/falarica/spark-devplugins
+
+nav:
+- 'Introduction': 'index.md'
+- 'Cluster Manager Plugin': 'cmgr.md'
+- 'Parser Plugin': 'parser.md'
+- 'Resolver Plugin': 'resolver.md'
+- 'Analyzer Plugin': 'analyzer.md'
+- 'Optimizer Plugin': 'optimizer.md'
+- 'Planner Plugin': 'planner.md'
+- 'Shuffle Manager Plugin': 'smgr.md'
+
+theme: readthedocs
+
+copyright: Copyright Hemant Bhanawat, 2019
+
