@@ -4,7 +4,7 @@ Launch Spark using your cluster manager.
 
 ## Approach
 
-Apache Spark supports cluster managers like YARN and Standalone by default. But it also allows you to plug-in your own cluster manager. For e.g. [Snappydata](https://www.snappydata.io/) has written their own cluster manager so that they can launch the executors in the same process that holds the data in memory. In fact, Apache Spark didn't support cluster manager plugin but when I was part of SnappyData, I contributed [that code to Apache Spark](https://github.com/apache/spark/pull/11723). **Shameless advertising.:-)**
+Apache Spark supports cluster managers like YARN and Standalone by default. But it also allows you to plug-in your own cluster manager. For e.g. [Snappydata](https://www.snappydata.io/) has written their own cluster manager so that they can launch the executors in the same process that holds the data in memory. 
 
 Ideally cluster manager is a separate process, which is responsible for launching executors when driver requests. In this project, for demonstration, instead of talking with an external cluster manager, driver launches the executor processes on the same machine based on configuration.
 

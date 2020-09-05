@@ -1,6 +1,6 @@
 site_name: Spark Dev Plugins
 site_description: Developer Plugins For Apache Spark
-site_author: Hemant Bhanawat
+site_author: Falarica Analytics
 repo_url: https://github.com/falarica/spark-devplugins
 
 nav:
@@ -15,5 +15,5 @@ nav:
 
 theme: readthedocs
 
-copyright: Copyright Hemant Bhanawat, 2019
+copyright: Copyright Falarica Analytics, 2020
 
