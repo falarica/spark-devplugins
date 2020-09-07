@@ -6,4 +6,4 @@ Every project in [spark-devplugins](https://github.com/falarica/spark-devplugins
 
 Currently, the repo is built with Spark 2.3.1.
 
-Documentation can be found [here.](https://github.com/falarica/spark-devplugins) 
+Documentation can be found [here.](https://falarica.github.io/spark-devplugins) 
